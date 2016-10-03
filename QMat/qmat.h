@@ -1,10 +1,6 @@
 #ifndef QMAT_H
 #define QMAT_H
 
-#ifndef __cplusplus
-#  error qmat.hpp header must be compiled as C++
-#endif
-
 #include <opencv2/core/mat.hpp>
 #include <QLabel>
 

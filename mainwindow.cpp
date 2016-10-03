@@ -88,6 +88,5 @@ void MainWindow::highLightRemove(QMat mat, int iter) {
 //    qDebug() << "Highlight removal of iterations before convergece: " << iter_count;
 
     h.getDiffuseImage().draw(m_ui->lblImage);
-    h.clean();
 }
 
